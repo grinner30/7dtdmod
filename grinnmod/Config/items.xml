@@ -15,7 +15,6 @@
 <setattribute xpath="/items/item[starts-with(@name, 'drink')]/property[@name='Stacknumber']" name="value">150</setattribute>
 <setattribute xpath="/items/item[starts-with(@name, 'ammo9mm')]/property[@name='Stacknumber']" name="value">500</setattribute>
 <setattribute xpath="/items/item[starts-with(@name, 'ammo762')]/property[@name='Stacknumber']" name="value">500</setattribute>
-<setattribute xpath="/items/item[starts-with(@name, 'ammo44MagnumBullet')]/property[@name='Stacknumber']" name="value">500</setattribute>
 <setattribute xpath="/items/item[starts-with(@name, 'ammoShotgun')]/property[@name='Stacknumber']" name="value">500</setattribute>
 <setattribute xpath="/items/item[starts-with(@name, 'ammoArrow')]/property[@name='Stacknumber']" name="value">500</setattribute>
 <setattribute xpath="/items/item[starts-with(@name, 'ammoCrossbow')]/property[@name='Stacknumber']" name="value">500</setattribute>

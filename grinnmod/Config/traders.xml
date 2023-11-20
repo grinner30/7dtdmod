@@ -1,3 +1,36 @@
 <configs>
+<setattribute xpath="/traders" name="buy_markup">1.75</setattribute>
+<setattribute xpath="/traders" name="sell_markdown">0.75</setattribute>
+
+
+<!-- qaulity mod -->
+
+<setattribute xpath="/traders" name="quality_mod">0.8,4</setattribute>
+
+<!-- trader opening times -->
+<setattribute xpath="//trader_info[@id=1]" name="open_time">4:05</setattribute>
+<setattribute xpath="//trader_info[@id=1]" name="close_time">4:04</setattribute>
+<setattribute xpath="//trader_info[@id=2]" name="open_time">4:05</setattribute>
+<setattribute xpath="//trader_info[@id=2]" name="close_time">4:04</setattribute>
+<setattribute xpath="//trader_info[@id=6]" name="open_time">4:05</setattribute>
+<setattribute xpath="//trader_info[@id=6]" name="close_time">4:04</setattribute>
+<setattribute xpath="//trader_info[@id=7]" name="open_time">4:05</setattribute>
+<setattribute xpath="//trader_info[@id=7]" name="close_time">4:04</setattribute>
+<setattribute xpath="//trader_info[@id=8]" name="open_time">4:05</setattribute>
+<setattribute xpath="//trader_info[@id=8]" name="close_time">4:04</setattribute>
+
+
+<!-- trader restock everyday -->
+<setattribute xpath="//trader_info[@id=1]" name="reset_interval">1</setattribute>
+<setattribute xpath="//trader_info[@id=2]" name="reset_interval">1</setattribute>
+<setattribute xpath="//trader_info[@id=6]" name="reset_interval">1</setattribute>
+<setattribute xpath="//trader_info[@id=7]" name="reset_interval">1</setattribute>
+<setattribute xpath="//trader_info[@id=8]" name="reset_interval">1</setattribute>
+
+<!-- Trader stock swap out - need mxa in inv to be 2 timnes min-->
+<setattribute xpath="//trader_info[@id=1]" name="min_inventory">80</setattribute>
+<setattribute xpath="//trader_info[@id=1]" name="max_inventory">160</setattribute>
+<setattribute xpath="//trader_info[@id=1]" name="min_items_swapped">120</setattribute>
+<setattribute xpath="//trader_info[@id=1]" name="max_items_swapped">120</setattribute>
 
 </configs>

@@ -1,3 +1,16 @@
 <configs>
 
+
+<!-- set silencer chance for weapons-->
+<setattribute xpath="//item[@name='gunHandgunT1Pistol']" name="mods">mod="modGunSoundSuppressorSilencer" </setattribute>
+<setattribute xpath="//item[@name='gunHandgunT1Pistol']" name="mods_chance">0.25</setattribute>
+												
+<setattribute xpath="//item[@name='gunHandgunT2Magnum44']" name="mods">mod="modGunSoundSuppressorSilencer" </setattribute>
+<setattribute xpath="//item[@name='gunHandgunT2Magnum44']" name="mods_chance">0.25</setattribute>
+												
+<setattribute xpath="//item[@name='gunHandgunT3SMG5']" name="mods">mod="modGunSoundSuppressorSilencer" </setattribute>
+<setattribute xpath="//item[@name='gunHandgunT3SMG5']" name="mods_chance">0.5</setattribute>
+
+
+
 </configs>
