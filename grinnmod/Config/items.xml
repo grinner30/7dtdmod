@@ -1,0 +1,37 @@
+<configs>
+<!--Items stacksizes-->
+<setattribute xpath="/items/item[starts-with(@name, 'resourceRepair')]/property[@name='Stacknumber']" name="value">100</setattribute>
+<setattribute xpath="/items/item[starts-with(@name, 'resourceRad')]/property[@name='Stacknumber']" name="value">250</setattribute>
+<setattribute xpath="/items/item[starts-with(@name, 'solarCe')]/property[@name='Stacknumber']" name="value">25</setattribute>
+<setattribute xpath="/items/item[starts-with(@name, 'resourceFeat')]/property[@name='Stacknumber']" name="value">500</setattribute>
+<setattribute xpath="/items/item[starts-with(@name, 'resourceLeat')]/property[@name='Stacknumber']" name="value">500</setattribute>
+<setattribute xpath="/items/item[starts-with(@name, 'resourceSewing')]/property[@name='Stacknumber']" name="value">500</setattribute>
+<setattribute xpath="/items/item[starts-with(@name, 'resourceConcrete')]/property[@name='Stacknumber']" name="value">5000</setattribute>
+<setattribute xpath="/items/item[starts-with(@name, 'resourceCobble')]/property[@name='Stacknumber']" name="value">5000</setattribute>
+
+
+<setattribute xpath="/items/item[@name='resourceOil']/property[@name='Stacknumber']" name="value">500</setattribute>
+<setattribute xpath="/items/item[@name='resourceLockPick']/property[@name='Stacknumber']" name="value">200</setattribute>
+<setattribute xpath="/items/item[@name='ammo44MagnumBullet']/property[@name='Stacknumber']" name="value">500</setattribute>
+<setattribute xpath="/items/item[@name='ammo44MagnumAP']/property[@name='Stacknumber']" name="value">500</setattribute>
+<setattribute xpath="/items/item[@name='ammo44MagnumHP']/property[@name='Stacknumber']" name="value">500</setattribute>
+
+
+<setattribute xpath="/items/item[starts-with(@name, 'drink')]/property[@name='Stacknumber']" name="value">150</setattribute>
+<setattribute xpath="/items/item[starts-with(@name, 'ammo9mm')]/property[@name='Stacknumber']" name="value">500</setattribute>
+<setattribute xpath="/items/item[starts-with(@name, 'ammo762')]/property[@name='Stacknumber']" name="value">500</setattribute>
+<setattribute xpath="/items/item[starts-with(@name, 'ammo44MagnumBullet')]/property[@name='Stacknumber']" name="value">500</setattribute>
+<setattribute xpath="/items/item[starts-with(@name, 'ammoShotgun')]/property[@name='Stacknumber']" name="value">500</setattribute>
+<setattribute xpath="/items/item[starts-with(@name, 'ammoArrow')]/property[@name='Stacknumber']" name="value">500</setattribute>
+<setattribute xpath="/items/item[starts-with(@name, 'ammoCrossbow')]/property[@name='Stacknumber']" name="value">500</setattribute>
+<setattribute xpath="/items/item[starts-with(@name, 'resourceBulletCasing')]/property[@name='Stacknumber']" name="value">5000</setattribute>
+<setattribute xpath="/items/item[starts-with(@name, 'resourceBulletTip')]/property[@name='Stacknumber']" name="value">5000</setattribute>
+<setattribute xpath="/items/item[starts-with(@name, 'resourceBuckshot')]/property[@name='Stacknumber']" name="value">5000</setattribute>
+<setattribute xpath="/items/item[starts-with(@name, 'resourceGunPowder')]/property[@name='Stacknumber']" name="value">500</setattribute>
+<setattribute xpath="/items/item[starts-with(@name, 'resourceCloth')]/property[@name='Stacknumber']" name="value">500</setattribute>
+<setattribute xpath="/items/item[starts-with(@name, 'medical')]/property[@name='Stacknumber']" name="value">150</setattribute>
+<setattribute xpath="/items/item[starts-with(@name, 'food')]/property[@name='Stacknumber']" name="value">250</setattribute>
+
+
+
+</configs>
